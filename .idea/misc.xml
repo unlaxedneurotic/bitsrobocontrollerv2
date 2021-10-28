@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/RoboControllerV2/app/src/main/res/layout/activity_button_controller.xml" value="0.36666666666666664" />
+        <entry key="..\:/RoboControllerV2/app/src/main/res/layout/activity_connector.xml" value="0.33" />
+        <entry key="..\:/RoboControllerV2/app/src/main/res/layout/activity_controller.xml" value="0.33" />
+        <entry key="..\:/RoboControllerV2/app/src/main/res/layout/activity_gyro_controller.xml" value="0.36666666666666664" />
+        <entry key="..\:/RoboControllerV2/app/src/main/res/layout/activity_gyro_temp_controller.xml" value="0.36666666666666664" />
+        <entry key="..\:/RoboControllerV2/app/src/main/res/layout/activity_joystick_controller.xml" value="0.36666666666666664" />
+        <entry key="..\:/RoboControllerV2/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/RoboControllerV2/app/src/main/res/layout/fragment_controller.xml" value="0.20471014492753623" />
+        <entry key="..\:/RoboControllerV2/app/src/main/res/layout/fragment_home.xml" value="0.36666666666666664" />
+        <entry key="..\:/RoboControllerV2/app/src/main/res/layout/fragment_options.xml" value="0.33" />
+        <entry key="..\:/RoboControllerV2/app/src/main/res/menu/bottom_nav_menu.xml" value="0.36666666666666664" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

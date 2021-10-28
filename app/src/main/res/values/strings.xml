@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">RoboControllerV2</string>
+    <string name="launch_message">RoboControllerV2</string>
+    <string name="connect">Connect</string>
+    <string name="host">Host [default: broker.hivemq.com]</string>
+    <string name="port">Port [default:1883]</string>
+    <string name="topic">Topic [default: robobits/test]</string>
+    <string name="title_activity_controller">ControllerActivity</string>
+    <string name="controller">Controller</string>
+    <string name="options">Options</string>
+    <string name="proceed">Proceed</string>
+    <string name="status_default">Disconnected</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="radio_button">Button Controller</string>
+    <string name="radio_gyro">Gyro Controller</string>
+    <string name="radio_joystick">Joystick Controller</string>
+    <string name="stop">Stop</string>
+    <string name="select_controller">Select Controller Type</string>
+    <string name="description">Connects Host:broker.hivemq.com, Port:1883 and publishes to robobits/test by default.\nDisconnect before reconnecting.</string>
+    <string name="values">Values</string>
+    <string name="strength_zero">Strength: 0%</string>
+</resources>
