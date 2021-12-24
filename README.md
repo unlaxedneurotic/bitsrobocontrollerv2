@@ -9,12 +9,15 @@ The application has two major components:
 - Connector
 - Controller
 
+#### A bird's eye view
+![flowdiagram](/screenshots/flowdiagram)
 ### Connector
 The connector is the object that connects to the MQTT server and publishes all the messages in json format. Any client can subscribe to the topic and convert the received message into a command message of any type. In our case we are directly using the structure of a standard `Twist` message used in ROS.
 #### Methods and Attributes
 The only two attributes of this class are:
 - `mqttClient` - This is the object that will actually connect to the server and perform all communication tasks.
 - `publishtopic` - Stores the topic to which we want to publish our messages
+
 The methods present in this class:
 - `connectToBroker` - Connects to the MQTT server. It initializes the `mqttClient` and sets all the callbacks.
 - `disconnectFromBroker` - Disconnects from the server and destroys the `mqttClient`.
@@ -45,13 +48,13 @@ You can also control the maximum speed of each controller.
 ### Screenshots
 #### Main Screen
 The activity where you input the host url and topic as well as select the type of controller you wish to use.
-![main_screen](/screenshots/main_screen)
+![main_screen](/screenshots/main_screen.jpg)
 
 #### Controllers
 The controller activities
 Gyro-based Controller
-![gyro](/screenshots/gyro)
+![gyro](/screenshots/gyro.jpg)
 Button-based Controller
-![button](/screenshots/button)
+![button](/screenshots/button.jpg)
 Joystick-based Controller
-![joystick](/screenshots/joystick)
+![joystick](/screenshots/joystick.jpg)
