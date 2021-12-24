@@ -10,7 +10,7 @@ The application has two major components:
 - Controller
 
 #### A bird's eye view
-![flowdiagram](/screenshots/flowdiagram.jpg)
+![flowdiagram](/screenshots/flowdiagram.png)
 ### Connector
 The connector is the object that connects to the MQTT server and publishes all the messages in json format. Any client can subscribe to the topic and convert the received message into a command message of any type. In our case we are directly using the structure of a standard `Twist` message used in ROS.
 #### Methods and Attributes
@@ -53,7 +53,7 @@ The activity where you input the host url and topic as well as select the type o
 #### Controllers
 The controller activities
 Gyro-based Controller
-![gyro](/screenshots/gyro.jpg | height=500)
+<img src="/screenshots/gyro.jpg" alt="gyro"  height="500">
 Button-based Controller
 ![button](/screenshots/button.jpg | height=500)
 Joystick-based Controller
