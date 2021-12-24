@@ -48,13 +48,12 @@ You can also control the maximum speed of each controller.
 ### Screenshots
 #### Main Screen
 The activity where you input the host url and topic as well as select the type of controller you wish to use.
-![main_screen](/screenshots/main_screen.jpg)
+
+<img src="/screenshots/main_screen.jpg" alt="mainscreen"  height="700">
 
 #### Controllers
 The controller activities
-Gyro-based Controller
-<img src="/screenshots/gyro.jpg" alt="gyro"  height="500">
-Button-based Controller
-![button](/screenshots/button.jpg | height=500)
-Joystick-based Controller
-![joystick](/screenshots/joystick.jpg | height=500)
+
+<img src="/screenshots/gyro.jpg" alt="gyro"  height="700">
+<img src="/screenshots/button.jpg" alt="button"  height="700">
+<img src="/screenshots/joystick.jpg" alt="joystick"  height="700">
